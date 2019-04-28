@@ -1,7 +1,7 @@
 # goutils
 A collection of useful go utilities and functions.
 
-[![Build Status](https://travis-ci.org/Jatgam/goutils.svg?branch=master)](https://travis-ci.org/Jatgam/goutils)
+[![Build Status](https://travis-ci.org/jatgam/goutils.svg?branch=master)](https://travis-ci.org/jatgam/goutils)
 
 ### Version
 Works with semantically versioned modules, according to [semver](https://semver.org/). The version is pulled from the git tags of the repository. Example: v0.1.0
@@ -35,3 +35,15 @@ func main() {
 
 ### Queue and Double Linked List
 Meant to be thread safe and support go concurrency.
+
+### Log
+A common log setup so all your projects/modules are consistent.
+
+### Strings
+Various random useful string functions.
+
+### Regex
+Capture named regex groups into a map
+
+### Files
+Various functions around files and directories.
